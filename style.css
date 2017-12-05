@@ -4,6 +4,10 @@ body{
   overflow-x:hidden;
 }
 
+span {
+	color:blue;
+}
+
 .navbar{
   background-color:#3b5998;
   overflow:hidden;

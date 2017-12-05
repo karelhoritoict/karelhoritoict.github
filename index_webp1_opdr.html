@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Side Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="infokarel.html">Info Karel</a></li>
+      <li><a href="lesonderwerpen.html">Lesonderwerpen</a></li>
+      <li><a href="softwarekennis.html">Softwarekennis</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="infokarel.html">Info Karel</a>
+    <a href="lesonderwerpen.html">Lesonderwerpen</a>
+    <a href="softwarekennis.html">Softwarekennis</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+  <div id="main">
+   
+	  <h1>Webproductie 1 opdrachten</h1>
+	  <ul>
+	  <h2>Website 1: mijn website over mijn hobby's</h2>
+                 <p> Je leerde een website maken met</p>
+                
+   
+                <ol>
+                  <li>nav menu ul block gecentreerd</li>
+                  <li>werken met bladwijzers #</li>
+                  <li>div met content float</li>
+                  <li>footer met tabel</li>
+                </ol>
+	  </ul>
+	  
+       <ul>    <h2>Website 2: DEME</h2>
+               <p>Website met (stage) landingspagina</p> 
+            <ol>
+                  <li>sociaal menu</li>
+                  <li>background full screen</li>
+                  <li>centreren div</li>
+                  <li>hotspots maken</li>
+                </ol>
+       </ul> 
+	  <ul> <h2>Website 3: Halloween:</h2>
+                <p> Website maken met CSS grid</p> 
+                      
+                  <ol>
+                    <li>header hero-box</li>
+                    <li>responisve images</li>
+                    <li>responsive menu</li>
+                    <li>blokken in CSSgrid</li>
+                    <li>@media queries</li>
+                  </ol>
+     
+	  </ul>
+
+
+    </ul>
+   
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+</body>
+</html>
