@@ -3,15 +3,26 @@ body{
   background-color:#f4f4f4;
   overflow-x:hidden;
 }
+a {
+	text-decoration: none;
+	color: black;
+}
 
 span {
 	color:blue;
 }
 
+.main {
+	align-text: center;
+}
+.navbar-nav {
+	
+}
 .navbar{
   background-color:#3b5998;
   overflow:hidden;
   height:63px;
+	
 }
 
 .navbar a{
@@ -22,6 +33,7 @@ span {
   padding:14px 16px;
   text-decoration:none;
   font-size:17px;
+ 
 }
 
 .navbar ul{
@@ -46,6 +58,7 @@ span {
   overflow-x:hidden;
   padding-top:60px;
   transition:0.5s;
+  list-style-type:none !important;
 }
 
 .side-nav a{
