@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Responsive Side Menu</title>
   <link rel="stylesheet" href="style.css">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	  
 </head>
+
 <body>
-      <nav class="navbar">
+  <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
@@ -23,221 +27,333 @@
     </span>
 
     <ul class="navbar-nav">
-		
-           <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
-		<li><a href="index_webp1_opdr.html">Webp1-opdr</a></li>
-		<li><a href="index_webp1_tuts.html">+tuturials</a></li>
+
+      <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
+      <li><a href="index_webp1_opdr.html">Webp1-opdr</a></li>
+      <li><a href="index_webp1_tuts.html">+tuturials</a></li>
       <li><a href="index_webproductie2.html">Webproductie 2</a></li>
-		<li><a href="index_webp2_opdr.html">Webp2_opdr</a></li>
+      <li><a href="index_webp2_opdr.html">Webp2_opdr</a></li>
       <li><a href="index_interfacedesign.html">Interfacedesign</a></li>
-		 <li><a href="index_webproject.html">Webprojecten</a></li>
+      <li><a href="index_webproject.html">Webprojecten</a></li>
     </ul>
   </nav>
 
   <div id="side-menu" class="side-nav">
     <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-   <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
-		<li><a href="index_webp1_opdr.html">Webp1_opdr</a></li>
-	  <li><a href="index_webp1_tuts.html">+tuturials</a></li>
-      <li><a href="index_webproductie2.html">Webp2-LPD</a></li>
-		<li><a href="index_webp2_opdr.html">Webp2-opdr</a></li>
-      <li><a href="index_interfacedesign.html">Interfacedesign</a></li>
-		 <li><a href="index_webproject.html">Webprojecten</a></li>
+    <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
+    <li><a href="index_webp1_opdr.html">Webp1_opdr</a></li>
+    <li><a href="index_webp1_tuts.html">+tuturials</a></li>
+    <li><a href="index_webproductie2.html">Webp2-LPD</a></li>
+    <li><a href="index_webp2_opdr.html">Webp2-opdr</a></li>
+    <li><a href="index_interfacedesign.html">Interfacedesign</a></li>
+    <li><a href="index_webproject.html">Webprojecten</a></li>
   </div>
 
   <div id="main">
-	  
-	   <h1>Moduleplanning Webp2 2017-2018</h1><br> <p>A4 document voor directie: <a href="https://docs.google.com/document/d/1v9vvleQ47GKVw4ydULOWEtvtFkZMSEIqdY2PnMQSktM/edit?usp=sharing">online-gdoc</a> en <a href="#">(nog geen.PDF)</a></p>
-	  
-	  
-	  <div class="container">
-  <h2>Webproductie 2 Leerplandoelstellingen</h2>
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">LPD 1/7 voorbereiden</a></li>
-    <li><a data-toggle="tab" href="#menu1">2/7 webtechnisch</a></li>
-    <li><a data-toggle="tab" href="#menu2">3/7 Interface</a></li>
-    <li><a data-toggle="tab" href="#menu3">4/7 Interactief</a></li>
-	   <li><a data-toggle="tab" href="#menu4">5/7 Animatie</a></li>
-	   <li><a data-toggle="tab" href="#menu5">6/7 Kwaliteit</a></li>
-	   <li><a data-toggle="tab" href="#menu6">7/7 Veiligheid</a></li>
-  </ul>
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>1/7 LPD Voorbereiden</h3>
-      <p>o de werkzaamheden voorbereiden;<br>
+    <h1>Moduleplanning Webp2 2017-2018</h1><br>
+    <p>A4 document voor directie: <a href="https://docs.google.com/document/d/1v9vvleQ47GKVw4ydULOWEtvtFkZMSEIqdY2PnMQSktM/edit?usp=sharing">online-gdoc</a> en <a href="#">(nog geen.PDF)</a></p>
 
-o de functionaliteit van een website kaderen binnen de algemene bedrijfscommunicatiestrategie;<br>
 
-o een werkopdracht analyseren naar de wensen van de opdrachtgever;<br>
+    <div class="container">
+      <h2>Webproductie 2 Leerplandoelstellingen</h2>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">1-7 LPD detail</a></li>
+        <li><a data-toggle="tab" href="#menu1">2/7 webtechnisch</a></li>
+        <li><a data-toggle="tab" href="#menu2">2/7 webtechnisch</a></li>
+        <li><a data-toggle="tab" href="#menu3">3/7 Interface</a></li>
+        <li><a data-toggle="tab" href="#menu4">4/7 Interactief</a></li>
+        <li><a data-toggle="tab" href="#menu5">5/7 Animatie</a></li>
+        <li><a data-toggle="tab" href="#menu6">6/7 Kwaliteit</a></li>
+        <li><a data-toggle="tab" href="#menu7">7/7 Veiligheid</a></li>
+      </ul>
 
-o hardware en software kiezen;<br>
 
-o de eigen werkzaamheden plannen;<br>
 
-o de technische voorwaarden tot gebruik instellen; o het bronmateriaal controleren;<br>
+              <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+					  <h3>1-7 Leerplandoelen detail</h3><p>
 
-o een database gebruiken; </p>
+ <span>1.1 Contacten met de opdrachtgever</span> • voorbereiding eerste gesprek met klant: inwinnen bedrijfsinformatie via pers, internet, bedrijfsblad, … 
+ <span>1.2 Enquëte</span>  • opstellen enquête over de bestaande bedrijfscommunicatie en promotie  
+ <span>1.3 Gesprek</span>  • gesprek voeren met de klant over het functioneren van de te maken website in de algemene bedrijfsstrategie 
+ <span>1.4 Presentatie</span>  • presentatie van het voorstel aan de klant   
+<span>2.0 Planning en opvolging</span>  • Verslagen maken van intakegesprek en verdere overlegmomenten met de klant 
+<span>2.1 Flowchart en planning</span>  • Opmaken van een flowchart en voorlopige werkplanning, inventariseren van bestaand en nog te maken inhoud voor de site 
+<span>3 Bronmateriaal</span>  • Voorontwerpen voor de pagina’s maken 
+<span>3.1 Beoordelen en aanpassen </span> • Bronbestanden optimaliseren, beoordelen en aanpassen 
+<span>3.2 Ontwerp in het net </span> • Ontwerpen nettekenen
+<span>4.1a  Interfacedesign </span> • Uitwerken van een navigatiemethode
+<span>4.1b  css </span> • Scripten van het CSS-stijlblad(en)
+<span>4.2  templates </span> • Creatie van templates
+<span>4.3  server-side </span> • Creatie van server-side-includes
+<span>4.4  libary grafische elementen </span> • Aanleggen van een library van kleurenstalen, veel gebruikte grafische elementen
+<span>5.1  Interactieve websites maken </span> • sitedefinitie opzetten
+<span>5.2  library elementen </span> • creatie van library elementen
+<span>5.3  rollovers en dropdowns </span> • scripten van interactieve elementen zoals rollovers, remote rollovers, layers verbergen/tonen, inhoud van layers interactief manipuleren, dropdownmenus
+<span>5.4  voice-over </span> • universele toegang verzekeren dmv altteksten, voiceoverstructuren
+<span>5.5  testing server </span> • opzetten testing server
+<span>5.6  database opstellen </span> • databasedefinitie
+<span>5.7  queries en scripten </span> • koppeling met webpagina’s aanleggen, scripten van queries
+<span>5.8  uploaden en testen </span> • website uploaden naar de server en testen in diverse browsers en computerplatformen
+<span>6.1  Webanimanties maken </span> • animatiefilms ontwikkelen
+<span>6.2  animatie scripten </span> • interactieve animatiefilms scripten
+<span>6.3  gif maken </span> • animated gifs bouwen
+<span>7.1  Kwaliteitscontroles </span> • website uploaden naar de server en testen in diverse browsers en computerplatformen
+<span>7.2  fouten wegwerken </span> • fouten wegwerken
+<span>7.3  opleveren site </span> • opleveren van de site				</p>
+	</div>
+
+                  <div id="menu1" class="tab-pane fade">
+                  <h3>1/7 LPD Voorbereiden</h3>
+                  <p>o de werkzaamheden voorbereiden;<br> o de functionaliteit van een website kaderen binnen de algemene bedrijfscommunicatiestrategie;<br> o een werkopdracht analyseren naar de wensen van de opdrachtgever;<br> o hardware en software kiezen;<br>                    o de eigen werkzaamheden plannen;<br> o de technische voorwaarden tot gebruik instellen;<br> o het bronmateriaal controleren;<br> o een database gebruiken; </p>
+         <ul> <li> <span>1.1 Contacten met de opdrachtgever</span> • voorbereiding eerste gesprek met klant: inwinnen bedrijfsinformatie via pers, internet, bedrijfsblad, …</li>
+                    <li><span>1.2 Enquëte</span>  • opstellen enquête over de bestaande bedrijfscommunicatie en promotie </li>
+                    <li><span>1.3 Gesprek</span>  • gesprek voeren
+                    met de klant over het functioneren van de te maken website in de algemene bedrijfsstrategie</li>
+                    <li><span>1.4 Presentatie</span>  • presentatie van het voorstel aan de klant </li>   
+			 </ul>
+		</div>
+                <div id="menu2" class="tab-pane fade">
+                  <h3>2/7 LPD webtechnieken</h3>
+                  <p>
+                    grafische webtechnieken toepassen<br> o een grafisch verantwoord ontwerp maken;<br> o een tekenprogramma gebruiken;<br> o beeldcorrectie en beeldmanipulatie verrichten;<br> o bestandsformaten voor non-print toepassingen genereren;<br>
+					  <ul>
+					<li><span>2.0 Planning en opvolging</span>  • Verslagen maken van intakegesprek en verdere overlegmomenten met de klant</li>
+                    <li> <span>2.1 Flowchart en planning</span>  • Opmaken van een flowchart en voorlopige werkplanning, inventariseren van bestaand en nog te maken inhoud voor de site</li></ul>
+                  </p>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                  <h3>3/7 LPD Interfacedesign toepassen</h3>
+                  <p>interfacedesign toepassen;<br> o een synopsis opstellen;<br> o een scenario en draaiboek opstellen;<br> o een werkplan opstellen;<br> o de werkzaamheden bijsturen;<br> o een storyboard concretiseren;<br> o analyseren hoe materiaal aan
+                    te passen;<br> o de verschillende vormen van kwaliteitscontrole analyseren;</p>
+					<ul>
+					 <li><span>3 Bronmateriaal</span>  • Voorontwerpen voor de pagina’s maken</li>
+                        <li> <span>3.1 Beoordelen en aanpassen </span> • Bronbestanden optimaliseren, beoordelen en aanpassen</li>
+						<li><span>3.2 Ontwerp in het net </span> • Ontwerpen nettekenen</li>
+					</ul>
+                </div>
+                <div id="menu4" class="tab-pane fade">
+                  <h3>4/7 Interactieve website</h3>
+                  <p>
+                    interactieve websites maken;<br> o een websitestructuur uitwerken;<br> o de technische structuur ontleden;<br> o een webeditor hanteren;<br> o database gestuurde websites aanmaken en analyseren; <br> o grafische elementen integreren;<br>                    o een website publiceren; 
+					<ul>
+				
+						 <li><span>4.1a  Interfacedesign </span> • Uitwerken van een navigatiemethode</li>
+
+  <li><span>4.1b  css </span> • Scripten van het CSS-stijlblad(en)</li>
+
+  <li><span>4.2  templates </span> • Creatie van templates</li>
+
+
+  <li><span>4.3  server-side </span> • Creatie van server-side-includes</li>
+
+  <li><span>4.4  libary grafische elementen </span> • Aanleggen van een library van kleurenstalen, veel gebruikte grafische elementen</li>
+
+ 
+					</ul>
+					
+					</p>
+                </div>
+
+                <div id="menu5" class="tab-pane fade">
+                  <h3>5/7 LPD webanimaties maken</h3>
+                  <p>
+                    webanimaties maken;<br> o kan verschillende animaties aanmaken en optimaliseren;<br> o objecten en symbolen aanmaken;<br> o op acties reageren;<br> o beeld en geluid samenvoegen;<br> o scripts toevoegen aan animaties;<br> o animaties
+                    invoegen op een webpagina;<br> o objecten, classes, methods, properties en de dot-syntax toepassen;<br> o controle-structuren inbouwen;<br> o interactiviteit toevoegen via scripts;<br>
+                  </p>
+					<ul>
+					
+					 <li><span>5.1  Interactieve websites maken </span> • sitedefinitie opzetten</li>
+
+
+  <li><span>5.2  library elementen </span> • creatie van library elementen</li>
+
+
+  <li><span>5.3  rollovers en dropdowns </span> • scripten van interactieve elementen zoals rollovers, remote rollovers, layers verbergen/tonen, inhoud van layers interactief manipuleren, dropdownmenus</li>
+
+  <li><span>5.4  voice-over </span> • universele toegang verzekeren dmv altteksten, voiceoverstructuren</li>
+
+
+  <li><span>5.5  testing server </span> • opzetten testing server</li>
+
+
+
+  <li><span>5.6  database opstellen </span> • databasedefinitie</li>
+
+
+  <li><span>5.7  queries en scripten </span> • koppeling met webpagina’s aanleggen, scripten van queries</li>
+
+  <li><span>5.8  uploaden en testen </span> • website uploaden naar de server en testen in diverse browsers en computerplatformen</li>
+
+ 
+					
+					</ul>
+                </div>
+
+                <div id="menu6" class="tab-pane fade">
+                  <h3>6/7 LPD Kwaliteitscontrole </h3>
+                  <p>
+                    kwaliteitscontroles uitvoeren;<br> o het product aan de eisen van de klant toetsen; <br> o kleurweergave, resolutie, positionering, bruikbaarheid, bestandsgrootte, compatibiliteit bepalen;<br> o met mogelijkheden en beperkingen van
+                    verschillende browsers en platformen rekening houden;<br> o fouten ontdekken en verwijderen;<br> o functionaliteit testen;<br> o met opdrachtgever en collega’s overleg plegen;<br>
+
+                  </p>
+					<ul>
+					 <li><span>6.1  Webanimanties maken </span> • animatiefilms ontwikkelen</li>
+
+
+  <li><span>6.2  animatie scripten </span> • interactieve animatiefilms scripten</li>
+
+  <li><span>6.3  gif maken </span> • animated gifs bouwen</li>
+
+ 
+					
+					</ul>
+                </div>
+
+                <div id="menu7" class="tab-pane fade">
+                  <h3>7/7 LPD Veiligheid</h3>
+                  <p>
+                    de veiligheids- en milieuvoorschriften naleven.<br> o de werkplaatsregels toepassen;<br> o een ergonomische werkhouding aannemen. </p>
+					<ul>
+					 <li><span>7.1  Kwaliteitscontroles </span> • website uploaden naar de server en testen in diverse browsers en computerplatformen</li>
+
+  <li><span>7.2  fouten wegwerken </span> • fouten wegwerken</li>
+
+  <li><span>7.3  opleveren site </span> • opleveren van de site</li>
+					
+					</ul>
+                </div>
+
+              </div>
     </div>
-    <div id="menu1" class="tab-pane fade">
-        <h3>2/7 LPD webtechnieken</h3>
-      <p>
-		grafische webtechnieken toepassen<br>
 
-o een grafisch verantwoord ontwerp maken;<br>
 
-o een tekenprogramma gebruiken;<br>
+    <div class="container">
+      <h2>Webproductie 2 lessen</h2>
 
-o beeldcorrectie en beeldmanipulatie verrichten;<br>
+      <ul class="nav nav-tabs">
+        <li><a data-toggle="tab" href="#lessen">lessen</a></li>
+        <li><a data-toggle="tab" href="#les1">1</a></li>
+        <li><a data-toggle="tab" href="#les2">2</a></li>
+        <li><a data-toggle="tab" href="#les3">3</a></li>
+        <li><a data-toggle="tab" href="#les4">4</a></li>
+        <li><a data-toggle="tab" href="#les5">5</a></li>
+        <li><a data-toggle="tab" href="#les6">6</a></li>
+        <li><a data-toggle="tab" href="#les7">7</a></li>
+        <li><a data-toggle="tab" href="#les8">8</a></li>
+        <li><a data-toggle="tab" href="#les9">9</a></li>
+        <li><a data-toggle="tab" href="#les10">10</a></li>
+        <li><a data-toggle="tab" href="#les11">11</a></li>
+        <li><a data-toggle="tab" href="#les12">12</a></li>
+        <li><a data-toggle="tab" href="#les13">13</a></li>
+        <li><a data-toggle="tab" href="#les14">14</a></li>
+        <li><a data-toggle="tab" href="#les15">15</a></li>
+        <li><a data-toggle="tab" href="#les16">16</a></li>
+        <li><a data-toggle="tab" href="#les17">17</a></li>
+        <li><a data-toggle="tab" href="#les18">18</a></li>
+        <li><a data-toggle="tab" href="#les19">19</a></li>
+        <li><a data-toggle="tab" href="#les20">20</a></li>
+      </ul>
 
-o bestandsformaten voor non-print toepassingen genereren;<br>
-		</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h3>3/7 LPD Interfacedesign toepassen</h3>
-      <p>interfacedesign toepassen;<br>
+      <div class="tab-content">
+        <div id="lessen" class="tab-pane fade in active">
+          <h3>Webproductie 2 lessen</h3>
 
-o een synopsis opstellen;<br>
+          <h2>Alle lesdagen met onderwerp </h2>
+          <p> lessen webproductie2 (dinsdagvoormiddag en woensdagvoormiddag)<br><span>7/11/2017 - 30/1/2018</span> </p>
+          <ol>
 
-o een scenario en draaiboek opstellen;<br>
+            <li>les 1 di 07/11/2017 <a href="http://planboard.it/57e45b8c-a2e5-47e7-aca1-b5b7f37d390b" target="_blank">:   lesvoorbereiding: </a><span>introductie bootstrap</span></li>
+            <li>les 2 woe 08/11/2017<a href="http://planboard.it/3708e1f7-7ad2-4a41-9eef-3c9ee87d0bf2" target="_blank">:   lesvoorbereiding: </a><span> opzetten van boostrap template</span></li>
+            <li>les 3 di 14/11/2017 <a href="http://planboard.it/62fc4207-ff3f-4dc4-942e-09ac488a87c2" target="_blank">:   lesvoorbereiding: </a><span>Photoshop Assets + DW snippets (sint.jouwweb.nl)</span></li>
+            <li>les 4 woe 15/11/2017<a href="http://planboard.it/9a208853-48fb-4c75-b645-b3a509fa076e" target="_blank">:   lesvoorbereiding: </a>   <span>bootstrap: hulplijnen Photoshop + carousel framework</span></li>
+            <li>les 5 di 21/11/2017<a href="http://planboard.it/b4bedad3-27a5-4d8b-96c8-1a7ea01cce93" target="_blank">:   lesvoorbereiding: </a> <span>navigatie bar in bootstrap</span></li>
+            <li>les 6 woe 22/11/2017 <a href="http://planboard.it/7bccd5ce-7f76-4003-8c90-4d597f61e491" target="_blank">:   lesvoorbereiding: </a><span>FrontWebsite op Github + Formulier in bootstrap en firebase </span></li>
+            <li>les 7 di 28/11/2017 <a href="http://planboard.it/6b3ebfe6-95a5-4ab3-9418-a78eb5bf7e19" target="_blank">:   lesvoorbereiding: </a><span>Google maps API marker (voor contact.html)</span></li>
+            <li>les 8 woe 29/11/2017<a href="http://planboard.it/36866241-e9af-48f4-9483-f7170ff877f7" target="_blank">:   lesvoorbereiding: </a> <span>database local store: bookmarker</span></li>
+            <li>les 9 di 05/12/2017 <a href="http://planboard.it/3e3ebe34-5024-4b70-b9f4-dc1a7f415f91" target="_blank">:   lesvoorbereiding: </a><span>Online database met vuefire: booklist</span></li>
+            <li>les 10 woe 06/12/2017 <a href="http://planboard.it/4a8447a3-5509-4b07-b91c-e7b1446a4cde" target="_blank">:   lesvoorbereiding: </a><span>Online database met login vuetify: booklist</span></li>
+            <li>les 11 di 12/12/2017 <a href="http://planboard.it/85963857-bb0d-487b-9891-7d8572ca9f41" target="_blank">:   lesvoorbereiding: </a><span>Widgets voor bootstrap: wowslider</span></li>
+            <li>les 12 woe 13/12/2017 <a href="http://planboard.it/29ecf78b-b60f-4e42-851e-9c61ee76ab56" target="_blank">:   lesvoorbereiding: </a><span>Widgets voor bootstrap: accordion</span></li>
+            <li>les 13 di 19/12/2017 <a href="http://planboard.it/c287516f-9dde-4dfa-91e8-c8a723a1327e" accesskey=""target="_blank">:   lesvoorbereiding: </a><span>Werken met Mobirise en animatie.css</span></li>
+            <li>les 14 woe 20/12/2017<a href="http://planboard.it/e8acec6f-5e53-4ab6-8629-8fc995ff62e4" target="_blank">:   lesvoorbereiding: </a> <span>Publiceren van je websites</span></li>
+            <li>kerstvakantie</li>
+            <li>les 15 di 09/01/2018 <a href="http://planboard.it/a990cd4e-6bc5-41e7-ac8f-d440b8268391" target="_blank">:   lesvoorbereiding: </a><span>Werken met Adobe Muse voor websites</span></li>
+            <li>les 16 woe 10/01/2018 <a href="http://planboard.it/4f87fea7-86a4-4633-b1a1-6313a7d60e24" target="_blank">:   lesvoorbereiding: </a><span>Website responsive met Adobe Muse</span></li>
+            <li>les 17 di 16/01/2018 <a href="http://planboard.it/e06043f2-947f-4af6-9528-12f0d38b675b" target="_blank">:   lesvoorbereiding: </a><span>Website CMS leren: octoberCMS.com</span></li>
+            <li>les 18 woe 17/01/2018 <a href="http://planboard.it/a1c41230-f8a7-4e87-a983-23dd6d093300" target="_blank">:   lesvoorbereiding: </a><span>Imorteren websites in portfolio</span></li>
+            <li>les 19 di 23/01/2018 <a href="http://planboard.it/f418701c-4791-4a86-b725-3a51a89b6f09" target="_blank">:   lesvoorbereiding: </a><span>Voorstelling van je websites</span></li>
+            <li>les 20 woe 24/01/2018 <a href="http://planboard.it/aa5aa443-9140-472d-aa8b-2fa2deb8f2cf" target="_blank">:   lesvoorbereiding: </a><span>delibratie</span></li>
+          </ol>
 
-o een werkplan opstellen;<br>
 
-o de werkzaamheden bijsturen;<br>
 
-o een storyboard concretiseren;<br>
+        </div>
 
-o analyseren hoe materiaal aan te passen;<br>
+        <div id="les1" class="tab-pane fade">
 
-o de verschillende vormen van kwaliteitscontrole analyseren;</p>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-      <h3>4/7 Interactieve website</h3>
-      <p>
-		interactieve websites maken;<br>
-
-o een websitestructuur uitwerken;<br>
-
-o de technische structuur ontleden;<br>
-
-o een webeditor hanteren;<br>
-
-o database gestuurde websites aanmaken en analyseren; o grafische elementen integreren;<br>
-
-o een website publiceren; </p>
-    </div>
-	  
-	  
-	  
-	  <div id="menu4" class="tab-pane fade">
-      <h3>5/7 LPD webanimaties maken</h3>
-      <p>
-		webanimaties maken;<br>
-
-o kan verschillende animaties aanmaken en optimaliseren;<br>
-
-o objecten en symbolen aanmaken;<br>
-
-o op acties reageren;<br>
-
-o beeld en geluid samenvoegen;<br>
-
-o scripts toevoegen aan animaties;<br>
-
-o animaties invoegen op een webpagina;<br>
-
-o objecten, classes, methods, properties en de dot-syntax toepassen;<br>
-
-o controle-structuren inbouwen;<br>
-
-o interactiviteit toevoegen via scripts;<br>
-		  
-		  </p>
-    </div>
-	  
-	  
-	  <div id="menu5" class="tab-pane fade">
-      <h3>6/7 LPD Kwaliteitscontrole </h3>
-      <p>
-		kwaliteitscontroles uitvoeren;<br>
-
-o het product aan de eisen van de klant toetsen; <br>
-		  o kleurweergave, resolutie, positionering, bruikbaarheid, bestandsgrootte, compatibiliteit bepalen;<br>
-
-o met mogelijkheden en beperkingen van verschillende browsers en platformen rekening houden;<br>
-
-o fouten ontdekken en verwijderen;<br>
-
-o functionaliteit testen;<br>
-
-o met opdrachtgever en collega’s overleg plegen;<br>
-		  
-		  </p>
-    </div>
-	  
-	   <div id="menu6" class="tab-pane fade">
-      <h3>7/7 LPD Veiligheid</h3>
-      <p>
-		de veiligheids- en milieuvoorschriften naleven.<br>
-
-o de werkplaatsregels toepassen;<br>
-
-o een ergonomische werkhouding aannemen.  </p>
-    </div>
-	  
-  </div>
-</div>
-   
-	  <h1>Webproductie 2 lessen </h1>
-	  <ul>
-	  <h2>Alle lesdagen met onderwerp </h2>
-                 <p> lessen webproductie2 (dinsdagvoormiddag en woensdagvoormiddag)<br> iedere dinsdagvoormiddag en woensdagvoormiddag 7/11/2017 - 30/1/2018</li></p>
-                
-   
+          <h4>Doelstellingen:</h4>
+          <ul>
+            <li>• de functionaliteit van een website kaderen binnen de algemene bedrijfscommunicatiestrategie;<br><span>Doelgroep indachtig zijn: jonge leeftijd.</span></li>
+            <li>• een werkopdracht analyseren naar de wensen van de opdrachtgever;<br><span>De site van de sint volgens voorbeeld van de leerkracht</span></li>
+            <li>• hardware en software kiezen;<br><span>werken met Dreamweaver of Atom.io</span></li>
+            <li>• de eigen werkzaamheden plannen;<br><span>Alle deelopdrachten op tijd af hebben.</span></li>
+            <li>• de technische voorwaarden tot gebruik instellen;<br><span>opmaak volgens bootstrap normen</span></li>
+            <li>• het bronmateriaal controleren;<br><span>zoeken van afbeeldingen en video-materiaal van de sint</span></li>
+            <li>• een database gebruiken;<br> <span>verlanglijstje voor de sint</span> </li>
+          </ul>
+          <h4>les 1: inhoud:</h4>
+          <ul>
+            <h5>Opdracht: stad-van-de-sint website</h5>
+            <ul>
+              <li>opdracht in <span><a href="https://docs.google.com/document/d/1yuLs6mWv050OPhE0Tr6kJUksiajMkSqScm-3QOC_t3I/edit?usp=sharing">opdracht_stad-van-de-sint.gdoc</a></span> (nog geen pdf)</li>
+              <li><span>Introductie</span><br>
+                <p>Maken van een website die kindvriendelijk is in het thema van Sinterklaas. De bedoeling is om de inhoud van de www.stadvandesint.be en www.stadvandesint2017.be over te nemen maar zelf een bootstrap website te maken die voldoet aan de functionaliteiten.
+                  Uw eigen website moet online beschikbaar zijn op github.io.</p>
+                <span>Deelopdrachten</span>
+                <li>opzetten van bootstrap template</li>
+                <li>website zoals voorbeeld leerkracht namaken met www.jouwwebsite.nl</li>
                 <ol>
-                  
+                  <li>zoeken van afbeeldingen en correct formaat maken</li>
+                  <li>voorstel maken met template van www.jouwwebsite.nl</li>
+                  <li>het idee overnemen dat je ontwerpen hebt in jouwwebsite.nl in:</li>
+                  <li>Adobe Photoshop soorten artboards maken</li>
+                  <ul>
+                    <li>voor 4K: 1920 x 1200px</li>
+                    <li>voor desktop: 1280px x 900px</li>
+                    <li>voor tablet: 786 x 500 px</li>
+                    <li>voor smarthphone: 320 x 600 px
+                    </li>
+                  </ul>
+                  <li>in in Adobe XD voorstel prototype maken die de website in desktop-versie toont </li>
+                  <li>indienen .xd bestand + indienen link naar online prototype</li>
+                  <li>maken van website met bootstrap in code</li>
 
-					<li>les 1 di 07/11/2017 <span>introductie bootstrap</span></li>
-<li>les 2 woe 08/11/2017<span> opzetten van boostrap template</span></li>
-<li>les 3 di 14/11/2017 <span>Photoshop Assets + DW snippets (sint.jouwweb.nl)</span></li>
-<li>les 4 woe 15/11/2017 <span>bootstrap: hulplijnen Photoshop + carousel framework</span></li>
-<li>les 5 di 21/11/2017 <span>navigatie bar in bootstrap</span></li>
-<li>les 6 woe 22/11/2017 <span>FrontWebsite op Github + Formulier in bootstrap en firebase </span></li>
-<li>les 7 di 28/11/2017 <span>Google maps API marker (voor contact.html)</span></li>
-<li>les 8 woe 29/11/2017 <span>database local store: bookmarker</span></li>
-<li>les 9 di 05/11/2017 <span>Online database met vuefire: booklist</span></li>
-<li>les 10 woe 06/11/2017 <span>Online database met login vuetify: booklist</span></li>
-<li>les 11 di 12/12/2017 <span>Widgets voor bootstrap: wowslider</span></li>
-<li>les 12 woe 13/11/2017 <span>Widgets voor bootstrap: accordion</span></li>
-<li>les 13 di 19/12/2017 <span>Werken met Mobirise en animatie.css</span></li>
-<li>les 14 woe 20/12/2017 <span>Publiceren van je websites</span></li>
-</li>kerstvakantie</li>
-<li>les 15 di 09/01/2018 <span>Werken met Adobe Muse voor websites</span></li>
-<li>les 16 woe 10/01/2018 <span>Website responsive met Adobe Muse</span></li>
-<li>les 17 di 16/01/2018 <span>Website CMS leren: octoberCMS.com</span></li>
-<li>les 18 woe 17/01/2018 <span>Imorteren websites in portfolio</span></li>
-<li>les 19 di 23/01/2018 <span>Voorstelling van je websites</span></li>
-<li>les 20 woe 24/01/2018 <span>delibratie</span></li>
                 </ol>
-	  </ul>
-	  
-      
+              </li>
+            </ul>
+
+            <div id="les2" class="tab-pane fade">
 
 
-    </ul>
-   
-  </div>
+            </div>
 
-  <script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
 
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
-  </script>
+
+            <script>
+              function('.collapse').collapse();
+
+              function openSlideMenu() {
+                document.getElementById('side-menu').style.width = '250px';
+                document.getElementById('main').style.marginLeft = '250px';
+              }
+
+              function closeSlideMenu() {
+                document.getElementById('side-menu').style.width = '0';
+                document.getElementById('main').style.marginLeft = '0';
+              }
+            </script>
 </body>
+
 </html>
