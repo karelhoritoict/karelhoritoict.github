@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Responsive Side Menu</title>
   <link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
   <nav class="navbar">
@@ -44,13 +47,60 @@
 
 
    <div id="main">
+	    <div class="container">
 	   <img src="logo_horito.png">
    
 	  <h1>Opleiding Webdesigner Horito </h1>
 	  <p>Modules Webp1 + Webp2 + UI + Project</p> <span>sept 2017 - jan 2018 : leerkracht: Karel Rosseel </span>
 	  <p>Alle lesplandoelen op <br> <a href="http://www.stuurgroepvo.be/doc/curriculum/LeerplannenSVO/Nieuwe studiegebieden/LPGrafischecommunicatieenmedia/Webdesigner.pdf">(<u>stuurgroepvo.be/opleiding-modules-webdesigner.pdf)</u></a></p>
 	  <ul>
-	  <h2>Websiteproductie 1</h2>
+		  </div>
+			<div class="container">
+			<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Introductie</a></li>
+    <li><a data-toggle="tab" href="#menu1">Webproductie 1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Webproductie 2</a></li>
+	<li><a data-toggle="tab" href="#menu3">Interfacedesign</a></li>
+    <li><a data-toggle="tab" href="#menu4">Webprojecten</a></li>
+	   <li><a data-toggle="tab" href="#menu5">Webanimatie</a></li>
+	   <li><a data-toggle="tab" href="#menu6">(Webscripting=MMO)</a></li>
+				 <li><a data-toggle="tab" href="#menu7">Grafische vormgeving</a></li>
+	  
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>introductie </h3>
+      <p>
+		 Module Webdesign bestaat uit verschillende modules:
+		  <ul>
+		<li>Webproductie 1</li>
+			  <li>Webproductie 2</li>
+			  <li>Interfacedesign</li>
+			  <li>Webprojecten</li>
+			  <li>Webanimatie</li>
+			  <li>(Webscripting = MMO)</li>
+			  <li>Grafische vormgeving</li>
+			 
+			  
+		</ul>
+		
+		 <h2>Delibratie</h2>
+                <p> <span>Te maken websites online plaatsen</span></p> 
+                      
+                  <ol>
+                    <li>Portfolio: op <a href="http://sites.google.com" target="_blank">http://sites.google.com</a></li>
+					  <li> Websites online op username.github.io <span></span>(via <a href="http://www.github.com"target="_blank">www.github.com</a>) <span></span></li>
+                    
+					  
+					  </ol>
+		</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+        <h3>Webproductie 1</h3>
+		
+      <p>
+		   <h2>HTML5 en CSS3 website maken</h2>
 		  <p>Dinsdag- + woensdag voormiddag  (5/09/2017 - 8/11/2017)</p>
 		 <p><span> Je leerde een website in html Adobe Dreamweaver maken</span></p>
                 
@@ -71,8 +121,14 @@
 					<li><a href="webproductie1.slack.com"> webproductie1.slack.com</a> (uitnodiging <a href="https://goo.gl/tBzGtc">hier</a>)</li>
                 </ol>
 	  </ul>
+		</p>
+    </div>
 	  
-       <ul>    <h2>Websiteproductie 2:  </h2>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Webproductie 2</h3>
+      <p>
+		
+       <ul>    <h2>Bootstrap websites met templates maken + databaseconnectie  </h2>
 		   <p>Dinsdag+woensdag voormiddag (10/11/2017-23/01/2018)</p>
                <p><span>Website met template en database maken</span></p> 
             <ol>
@@ -83,8 +139,19 @@
                   <li>Adobe Muse voor responsive websites</li>
 				  <li>CMS systeem octobercms.com voor responsive websites</li>
                 </ol>
+		   
+		 
+                    
+                  
+     
+	  </ul>
        </ul> 
-	  <ul> <h2>Web-UI interfacedesign </h2>
+		</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>3 Intefacedesign</h3>
+      <p>
+		 <ul> <h2>Uitzicht van een website, soorten navigatie in websites </h2>
 		  <p>Vrijdag voormiddag (5/9/2017-23/1/2018)</p>
                 <p><span> Website opmaken voor een layout aan de klant</span></p> 
                       
@@ -99,9 +166,16 @@
                   </ol>
      
 	  </ul>
+		</p>
+    </div>
 	  
-	  <ul> <h2>Webprojecten (5/9/2017-23/1/2018)</h2>
-                <p> <span>Websiteproject alleen en in team maken</span></p> 
+	  
+	  <div id="menu4" class="tab-pane fade">
+      <h3>4 Webprojecten</h3>
+      <p>
+		 
+	  <ul> <h2>Verschillende projecten van de klant tot online versie maken</h2>
+                <p> <span>Websiteproject alleen of in team maken</span></p> 
                       
                   <ol>
                     <li>Leren samenwerken</li>
@@ -110,18 +184,58 @@
 					  <li>Klantencontact en opstellen ruw ontwerp</li>
                     <li>Opdrachten</li>
 					  <ol style="font-size:15px">
-						<li> Bootstrap Stad van de sint (</li>
-						<li>DEME-group website (landingspagina)</li>
-					  <li>Halloween website (CSS grid flex-layout)</li>
+						<li> Bootstrap: Stad van de sint</li>
+						<li>World Care 4 U (fictief bedrijf)</li>
+					  <li>Kerstbar-vlot (BeauxBateaux)</li>
 					  
 					  </ol>
                     
                   
      
 	  </ul>
-
-
-    </ul>
+		  </p>
+    </div>
+	  
+	  <div id="menu5" class="tab-pane fade">
+      <h3>Webanimatie 1+2</h3>
+      <p><h2>Animatie maken die in een website gebruikt kan worden</h2>
+		    <p><h2>Webanimatie 1</h2>
+		  <p>maandagvoormiddag en donderdagvoormiddag  (5/09/2017 - 8/11/2017)</p>
+		 <p><span> Je leert met Codepen CSS3 animaties maken</span></p>
+		   <p><h2>Webanimatie 2</h2>
+		  <p>maandagvoormiddag en donderdagvoormiddag  (10/11/2017 - 23/1/2018)</p>
+		 <p><span> Je leert met Animate CC webanimaties maken</span></p>
+                
+		  </p>
+	  </div>
+				 <div id="menu6" class="tab-pane fade">
+      <h3>(geen Webscripting)</h3>
+      <p><h2>Webscripting</h2>
+		  <p>webscripting zit enkel in de module multimedia operator</p>
+		 <p><span> Hier leer je PHP en mySql scripten</span></p>
+                
+   
+            	  
+		  </p>
+	  </div>
+					 <div id="menu7" class="tab-pane fade">
+      <h3>Grafische vormgeving</h3>
+      <p>  <p><h2>Grafische vormgeving</h2>
+		  <p>Maandagnamiddag (5/09/2017 - 8/11/2017)</p>
+		 <p><span> Je leerde met Photoshop werken</span></p>
+                
+		  
+		  </p>
+	  </div>
+		  
+  </div>
+</div>
+	 
+	  
+	 
+	 
+		  
+		 
    
   </div>
 
