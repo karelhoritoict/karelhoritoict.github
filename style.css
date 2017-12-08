@@ -74,7 +74,7 @@ span {
   z-index:1;
   top:0;
   left:0;
-  background-color:#111;
+  background-color:#164093;
   opacity:0.9;
   overflow-x:hidden;
   padding-top:60px;
@@ -98,9 +98,10 @@ span {
 .side-nav .btn-close{
   position:absolute;
   top:0;
-  right:22px;
-  font-size:36px;
-  margin-left:50px;
+	text-align:left;
+  left:2px;
+   margin-left:0px;
+	font-size:1em;
 }
 
 #main{
