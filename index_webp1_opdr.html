@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Responsive Side Menu</title>
   <link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
   <nav class="navbar">
@@ -21,7 +24,7 @@
 
     
     <ul class="navbar-nav">
-		<li><a href="index.html"><img src="logo_horito_klein.png" width="70px" height="20px"></a></li> 
+		<li><a href="index.html"><img src="logo_horito_klein.png" width="70px" height="20px" alt="horito logo"></a></li> 
            <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
 		<li><a href="index_webp1_opdr.html">Webp1-opdr</a></li>
 		<li><a href="index_webp1_tuts.html">+tuturials</a></li>
@@ -33,7 +36,7 @@
   </nav>
 
   <div id="side-menu" class="side-nav">
-	  <li><a href="#" class="btn-close" onclick="closeSlideMenu()"><img src="logo_horito.png">  </a></li> 
+	  <li><a href="#" class="btn-close" onclick="closeSlideMenu()"><img src="logo_horito.png" alt="horito logo">  </a></li> 
 	  <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
 		<li><a href="index_webp1_opdr.html">Webp1_opdr</a></li>
 	  <li><a href="index_webp1_tuts.html">+tuturials</a></li>
@@ -45,22 +48,56 @@
 
 
    <div id="main">
-	   <img src="html5css3.png">
-	  <h1>Webproductie 1 opdrachten</h1>
-	  <ul>
+	      <div class="container">
+   <img src="html5css3.png" alt="logo html5 en CSS3">
+	  <h2>Webproductie 1 opdrachten</h2>	   
+	              <ul class="nav nav-tabs">
+        <li><a data-toggle="tab" href="#opdrachten">Alle Opdrachten</a></li>
+        <li><a data-toggle="tab" href="#les1">1 Eigen Hobby's</a></li>
+        <li><a data-toggle="tab" href="#les2">2 DEME</a></li>
+        <li><a data-toggle="tab" href="#les3">3 Halloween</a></li>
+        <li><a data-toggle="tab" href="#les4">4 Portfolio</a></li>
+           
+      </ul>
+
+      <div class="tab-content">
+        <div id="opdrachten" class="tab-pane fade in active">
+          <h3>Webproductie 1 opdrachten</h3>
+
+        <ul>
+			  
+			  <ol>
+			   <li>Website 1:<span> mijn website over mijn hobby's</span> div, ankers, koppen en paragrafen, images, CSS stylen</li>
+			    <li>Website 2:<span> Deme-group business website</span> positioneren  landingspagina en sociaal menu, extra stylsheets</li>
+			  <li>Website 3:<span> Halloween website </span> CSS grid, hero-image, slider, formulier, cards, uploaden, audio, video en animatie</li>
+		    <li>Website 4:<span> Portfolio</span> Alle resultaten in website op http://sites.google.com en http://wwww.github.io</li> 
+			  </ol>
+                
+   
+              
+	  </ul>
+		  </div>
+       
+			
+        <div id="#opdr1" class="tab-pane fade in active">	 
+			<ul>
 	  <h2>Website 1: mijn website over mijn hobby's</h2>
                  <p> Je leerde een website maken met</p>
                 
    
                 <ol>
                   <li>nav menu ul block gecentreerd</li>
-                  <li>werken met bladwijzers #</li>
-                  <li>div met content float</li>
+                <li>div met content float</li>
                   <li>footer met tabel</li>
                 </ol>
 	  </ul>
 	  
-       <ul>    <h2>Website 2: DEME</h2>
+			
+		  </div>
+			
+        <div id="opdr2" class="tab-pane fade in active">
+			
+			<ul>    <h2>Website 2: DEME</h2>
                <p>Website met (stage) landingspagina</p> 
             <ol>
                   <li>sociaal menu</li>
@@ -69,8 +106,15 @@
                   <li>hotspots maken</li>
                 </ol>
        </ul> 
-	  <ul> <h2>Website 3: Halloween:</h2>
-                <p> Website maken met CSS grid</p> 
+	 
+             
+				  </div>
+			
+	
+        <div id="opdr3" class="tab-pane fade in active">
+			 <ul> 
+				 <h2>Website 3: Halloween:</h2>
+			   <p> Website maken met CSS grid</p> 
                       
                   <ol>
                     <li>header hero-box</li>
@@ -78,14 +122,17 @@
                     <li>responsive menu</li>
                     <li>blokken in CSSgrid</li>
                     <li>@media queries</li>
+					   <li> formulier</li>   
                   </ol>
-     
-	  </ul>
+			</ul>
+					 					  	 
+ 
+				</div>
 
-
-    </ul>
-   
-  </div>
+</div> 
+	</div>			
+  
+	   </Div>
 
   <script>
     function openSlideMenu(){
