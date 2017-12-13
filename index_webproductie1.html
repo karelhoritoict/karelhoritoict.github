@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Side Menu</title>
+  <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+<body id="home">
+       <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Horito </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index_info.html" class="nav-link">Info</a>
+          </li>
+          <li class="nav-item">
+            <a href="index_webproductie1.html" class="nav-link">webp1</a>
+          </li>
+          <li class="nav-item">
+            <a href="index_webproductie2.html" class="nav-link">webp2</a>
+          </li>
+          <li class="nav-item">
+            <a href="interfacedesign.html" class="nav-link">Interfacedesign</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+	<!--<nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+    <ul class="navbar-nav">
+		<li><a href="index.html"><img src="logo_horito_klein.png" width="70px" height="20px" alt="logo"></a></li> 
+		  <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
+		<li><a href="index_webp1_opdr.html">Webp1-opdr</a></li>
+		<li><a href="index_webp1_tuts.html">+tuturials</a></li>
+      <li><a href="index_webproductie2.html">Webp2-LPD</a></li>
+		<li><a href="index_webp2_opdr.html">Webp2_opdr</a></li>
+      <li><a href="index_interfacedesign.html">Interfacedesign</a></li>
+		 <li><a href="index_webproject.html">Webprojecten</a></li>
+    </ul>
+  
+
+  <div id="side-menu" class="side-nav">
+	  <li><a href="#" class="btn-close" onclick="closeSlideMenu()"><img src="logo_horito.png" alt="logo">  </a></li> 
+	  <li>  Horito</li>
+		<li>  Horito</li>
+	    <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
+		<li><a href="index_webp1_opdr.html">Webp1_opdr</a></li>
+	  <li><a href="index_webp1_tuts.html">+tuturials</a></li>
+	  <li><a href="index_webproductie1.html">Webp1-LPD</a></li>
+		<li><a href="index_webp1_opdr.html">Webp1_opdr</a></li>
+	  <li><a href="index_webp1_tuts.html">+tuturials</a></li>
+      <li><a href="index_webproductie2.html">Webp2-LPD</a></li>
+		<li><a href="index_webp2_opdr.html">Webp2-opdr</a></li>
+      <li><a href="index_interfacedesign.html">Interfacedesign</a></li>
+		 <li><a href="index_webproject.html">Webprojecten</a></li>
+  </div>
+</nav>
+-->
+
+
+
+	
+  <div id="main">
+	<section id="webproductie-info">
+    <div class="container">
+     	<div class=" d-flex flex-column my-flex-container-column align-items-start">
+		 <div class="d-flex flex-row my-flex-container flex-wrap ">
+			  <div class="mt-200 p-2 my-flex-item">
+				  <img src="html5css3.png" alt="logo" >
+			 </div>
+			
+		 <div class="p-2 my-flex-item">
+
+		
+				 
+	  <p>Moduleplanning Webp1 2017-2018 : A4 document voor directie: 
+		  <a href="https://docs.google.com/document/d/1EtN5bnw2Qxv6GbT_UGnA8IYhQWevyALiYWid1LV0Wxc/edit?usp=sharing">online-gdoc</a> en <a href="#">(nog geen .PDF)</a></p>
+      <p> Lessen webproductie1 (dinsdagvoormiddag en woensdagvoormiddag) <span> 5/9/2017 - 8/11/2017</span> </p>
+	  </div>
+				  </div>
+			  </div>
+		</div>
+		
+	  </section>
+		
+		
+	  <section>
+		<div class="container" 
+		
+  <h3>Webproductie 1 Leerplandoelstellingen</h3>
+		  
+ <ul class="nav nav-tabs" role="tablist"> <!-- tip in verband met opmaken van code met tabs: https://codepen.io/jek/pen/BoWNRy-->
+<li class="nav-item">    <a class="nav-link" data-toggle="tab" href="#sluit" aria-controls="nav-home" aria-selected="true">x</a></li>	   
+<li class="nav-item">    <a class="nav-link" data-toggle="tab" href="#indeling" aria-controls="nav-home" aria-selected="true">Lessen</a></li>
+	  
+
+	<!--  meer info https://getbootstrap.com/docs/4.0/components/navs/#pills-with-dropdowns-->
+	  <li class="nav-item dropdown"> 
+		      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Details</a>
+   		 <div class="dropdown-menu">
+		<a class="dropdown-item" href="#details" >details</a>
+		 <a class="dropdown-item" href="http://www.stuurgroepvo.be/doc/curriculum/LeerplannenSVO/Nieuwe studiegebieden/LPGrafischecommunicatieenmedia/Webdesigner.pdf">pdf p 24</a>
+      <div class="dropdown-divider"></div>
+			 <a class="dropdown-item" href="index_webp1_tuts.html">tuturials 1-20</a>
+    	<a class="dropdown-item" href="https://edpuzzle.com/" >edpuzzle.com</a>
+		  </div>
+	  </li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#menu1" aria-controls="nav-profile" aria-selected="false">1/6 Voorbereiden</a></li>
+    <li class="nav-item"><a class="nav-link"  data-toggle="tab" href="#menu2" aria-controls="nav-profile" aria-selected="false">2/6 Construeren</a></li>
+    <li class="nav-item"><a class="nav-link"  data-toggle="tab" href="#menu3" aria-controls="nav-profile" aria-selected="false">3/6 Opmaak</a></li>
+    <li class="nav-item"><a class="nav-link"  data-toggle="tab" href="#menu4" aria-controls="nav-profile" aria-selected="false">4/6 Grafisch materiaal</a></li>
+	<li class="nav-item"><a class="nav-link"  data-toggle="tab" href="#menu5" aria-controls="nav-profile" aria-selected="false">5/6 Publiceren</a></li>
+	 <li class="nav-item"><a class="nav-link"  data-toggle="tab" href="#menu6" aria-controls="nav-profile" aria-selected="false">6/6 Kwaliteit</a></li>
+	  
+  </ul>
+	
+	  
+		  <div class="tab-content">
+			  <div  id="sluit" class="tab-pane fade" role="tabpanel"></div>
+    <div  id="indeling" class="tab-pane fade" role="tabpanel">
+		<h3>Indeling lessen Webproductie 1:<br> 2017-2018</h3>
+			 <p> Alle lessen met link naar lesvoorbereiding (blauwe link naar www.Chalk.com)</p> 
+		
+				
+		 <details><summary><strong>1/6 voorbereiden (Eigen website over hobby's)</strong></summary>
+<li>les 1 di 05/09/2017 <a href="http://planboard.it/a648f871-f8f4-4eeb-bf5f-1075e9f9a732" target="_blank">:  lesvoorbereiding: </a><span>geen les</span></li>
+<li>les 2 woe 06/09/2017 <a href="http://planboard.it/d463d944-f0d2-45fd-958f-391d9aa3f88b" target="_blank">:  lesvoorbereiding: </a><span>webanatomie en basisopbouw + compositie met kleurcode en style</span></li>
+				   </details>
+				   <details><summary><strong>2/6 construeren</strong></summary>
+<li>les 3 di 12/09/2017 <a href="http://planboard.it/62c7b866-6933-498c-8479-5c5c6c7af0bc" target="_blank">:  lesvoorbereiding: </a><span>head </span></li>
+<li>les 4 woe 13/09/2017 <a href="http://planboard.it/e5ce0654-53b6-464d-9e0d-a58e901120d1" target="_blank">:  lesvoorbereiding: </a><span>styles + tekstopmaak met css</span></li>
+			 </details>
+				   <details><summary><strong>3/6 opmaak</strong></summary>
+<li>les 5 di 19/09/2017 <a href="http://planboard.it/645286d5-9d47-4b45-ab98-6f40b1638d8c" target="_blank">:  lesvoorbereiding: </a><span>Sticky-Menu als DIV blok + positioneren DIV</span></li>
+			 
+<li>les 6 woe 20/09/2017 <a href="http://planboard.it/3724a627-b1fb-495f-aaa2-8f7325fb73fc" target="_blank">:  lesvoorbereiding: </a><span>BOXMODEL: padding border margin voor div classes</span>  </li>
+<li>les 7 di 26/09/2017 <a href="http://planboard.it/7488aaf7-f086-477b-9103-9754de3c102c" target="_blank">:  lesvoorbereiding: </a><span>DIV positie class en id</span></li>
+					    </details>
+				   <details><summary><strong>4/6 Grafisch materiaal</strong></summary>
+<li>les 8 woe 27/09/2017<a href="http://planboard.it/5c75d4f4-af70-4179-84a3-bb5aa3fb3579" target="_blank">:  lesvoorbereiding: </a><span>Fonts online met Google fonts en Adobe typekit </span></li>
+<li>les 9 di 03/10/2017 <a href="http://planboard.it/5c75d4f4-af70-4179-84a3-bb5aa3fb3579" target="_blank">:  lesvoorbereiding: </a><span>cover fullscreen-image (deme-group.com)</span></li>
+<li>les 10 woe 04/10/2017<a href="http://planboard.it/ef3cd05b-af9a-493a-a113-01c9b89906b8" target="_blank">:  lesvoorbereiding: </a> <span>container 3 buttons NL FR ENG </span></li>
+				  
+<li>les 11 di 10/10/2017 <a href="http://planboard.it/512c83ba-5c24-49f8-9004-bc84b6386e37" target="_blank">:  lesvoorbereiding: </a><span>Social menu (in div)</span></li>
+<li>les 12 woe 11/10/2017<a href="http://planboard.it/d077822d-bc7d-4616-9774-330ae74181e0" target="_blank">:  lesvoorbereiding: </a><span>Hyperlink met target (Info ivm frameset en frame layout)</span></li>
+<li>les 13 di 17/10/2017 <a href="http://planboard.it/e64551c5-2b49-400c-a954-e51606b4c2a7" target="_blank">:  lesvoorbereiding: </a><span>Footer: Table + links mailto + tel (hetpaleis.be)</span></li>
+					   </details>
+			    <details><summary><strong>5/6 Publiceren + 6/6 Kwaliteit</strong></summary>
+<li>les 14 woe 18/10/2017 <a href="http://planboard.it/3aa43481-3f54-4fd0-88c9-2d540251139d" target="_blank">:  lesvoorbereiding: </a><span>eigen website voorzien van tabel</span></li>
+			     </details>
+				  
+			 <details><summary><strong>1+2+3+4+5+6/6 (website over Halloween) </strong></summary>
+<li>les 15 di 24/11/2018 <a href="http://planboard.it/0ea9e473-794e-4c50-bd03-19fd83ebeb58" target="_blank">:  lesvoorbereiding: </a><span>Viewport vw vh w + Responsive images</span></li>
+<li>les 16 woe 25/10/2018 <a href="http://planboard.it/be879994-f409-4909-9a40-b360fda79c16" target="_blank">:  lesvoorbereiding: </a><span>Hero-image/tekst + BLOG.html met 6 'blocks' (Halloween website)</span></li>
+				 <strong>herfstvakantie</strong>
+<li>les 17 di 07/11/2018<a href="http://planboard.it/57e45b8c-a2e5-47e7-aca1-b5b7f37d390b" target="_blank">:  lesvoorbereiding: </a> <span>responsive CSS grid (nuonsolarteam.nl)</span> </li>
+			
+<li>les 18 woe 08/11/2018 <a href="http://planboard.it/3708e1f7-7ad2-4a41-9eef-3c9ee87d0bf2" target="_blank">:  lesvoorbereiding: </a><span>animatie/video in div</span> </li>
+				 </details>
+					  
+			 <details> <summary><strong>6/6 Kwaliteit (website portfolio) + delibratie </strong></summary>
+		
+<li>les 19 vrij 10/11/2018  <span>Delibratie</span></li>
+			  	 </details>
+			 
+			 
+			 </div>
+				
+	
+			  	  
+   
+
+    <div id="details" class="tab-pane fade" role="tabpanel">
+		<h3>Leerplandoelstellingen in detail van 1-6</h3>
+		
+				<p>
+		 <span>1 Opmaak definiëren</span><!--• tekens • alinea’s • lijsten • tabellen • pagina-->
+		<span>1.1 Tekens</span> <!--• head code: charset= UTF-8 meta-data title meta-->
+
+<span>1.2 Alinea</span><!--alinea’s--><i> p class</i>
+
+<span>1.3 Lijst</span><!--lijsten--><i> ul ol li</i>
+
+<span>1.4 Tabel</span> <!--tabellen--><i> tr td table</i>
+
+<span>1.5 Pagina</span> index.html en stijlen.css
+<span>2 Link</span> Interne en externe links toepassen
+<span>2.1 Relatief/Absolute links</span>links <!--<i> px % em rem</i>-->
+
+<!--<span>2.1.2 Boxmodel (extra)</span> <!--• BOXMODEL: padding border margin voor div classes-->
+<!--<span>2.2.2 DIV + class + id</span> <!--• DIV positie <i>class en id</i>-->
+
+<span>2.2 Tekst en Figuur als link</span><!-- • tekst of figuur als link:--> <i> img figure picture</i>
+<span>2.3 Link naar e-mail, ander webpagina's</span><!-- • link --><i> a href=""</i>
+<span>2.4 Bladwijzer </span>(=anker)<!-- • bladwijzer : anker code a name + menu met link --><i> a href="#" target="_"</i>
+		<span>2.5 Autominiaturen </span> <!--• autominiaturen:--> <i> width height </i>
+<span>2.6 Hotspots</span> gebied op afbeelding<!-- • hotspots : op afbeeldingen : code--> <i> usemap en area</i>
+<span>2.7 Link in frames</span> <!--• tussen frames : code--> <i> iframe</i>
+<span>3 Ontwerpen frames/framework</span> frames ontwerpen en gebruiken
+<span>4 Formulieren integreren</span> aanmaak • wijzigen • resultaten verzenden • resultaten verwerken
+
+<span>5 Grafisch materiaal: beelden en figuren </span> voorbereiden, converteren en invoegen • achtergrond • optimaliseren
+<span>6 Technische en esthetische beslissingen nemen</span>   • kleuren en kleurencomposities
+
+<span>7 Multimedia</span> • componenten inlassen • video • animaties • geluid
+	<span>	8 Terminologie</span> • Terminologie • website / webpagina • WYSIWYG
+
+<span>8.1 Domein</span> • URL, IP-adres, domein
+
+<span>9 Head-tags</span> • Meta-tags en title van een webpagina
+
+<span>10 Webeditors</span> • Een webeditor hanteren
+
+<span>11 Structuur</span> • Technische structuur van een website ontleden en uitwerken
+
+<span>11.1 Inhoud verzamelen</span> • zich inhoudelijk informeren: inhoud en gegevens verzamelen 
+
+<span>11.2 Menu en webstructuur</span> <!--• een websitestructuur omzetten in een menu-->
+<span>11.3 Kleur beslissing</span> <!--kleur consequent gebruiken: een juiste beslissing qua opmaak maken in volledig site-->
+
+<span>11.4 Responsive webdesign</span> <!--• rekening houden met het verschil in browsers en schermweergaven-->
+
+<span>11.5 Metadata</span> <!--• een website optimaliseren voor een goede ranking in zoekmachines (metadata)-->
+
+<span>11.6 Overleg en deadlines</span> <!--•  overleggen met verschillende personen en eigen werk binnen de gestelde deadlines organiseren-->
+
+<span>11.7 Klanteisen</span> <!--• het product aan de eisen van de klant toetsen-->
+
+<span>12 Publiceren online</span> <!--• Publiceren van de website-->
+		<span>12.1 Webruimte</span> <!--• Webruimte aanvragen en/of activeren
+-->
+<span>12.2 Mapstructuur</span> <!--• Mappen en bestanden beheren en onderhouden-->
+
+<span>12.3 Onderhouden</span> <!--• Website onderhouden-->
+		</p>
+		
+		
+		
+		
+	  </div>
+
+		
+    <div id="menu1" class="tab-pane fade" role="tabpanel">
+      <h3>1/6 LPD Voorbereiden</h3>
+		<div class="d-flex flex-column my-flex-container-column align-items-start">
+		 <div class="d-flex flex-row my-flex-container flex-wrap ">
+			  <div class="p-2 my-flex-item-zondermarge">
+					<p>	
+		 <strong> de werkzaamheden voorbereiden;</strong><br>
+
+o zich inhoudelijk informeren;<br>
+
+o een technische analyse uitwerken;<br>
+
+o het eigen werk binnen de gestelde deadlines organiseren;<br>
+
+o een websitestructuur uitwerken en omzetten in menu;<br>
+o  een juiste beslissing qua opmaak maken<br>
+o  consequent kleurgebruik doorheen de volledige
+site<br>
+o  rekening houden met het verschil <br>in browsers
+en schermweergaven<br>
+o een website optimaliseren<br> voor een goede
+ranking in zoekmachines
+		
+			</p>
+			 </div>
+			
+		 <div class="p-2 my-flex-item-zondermarge">
+		
+				<ul>
+		
+		<li><span>9 Head-tags</span> • Meta-tags en title van een webpagina</li>
+
+<li><span>10 Webeditors</span> • Een webeditor hanteren</li>
+		
+		
+		
+		<li><span>11 Structuur</span><br> • Technische structuur van een website ontleden en uitwerken</li>
+
+<li><span>11.1 Inhoud verzamelen</span><br> • zich inhoudelijk informeren: inhoud en gegevens verzamelen </li>
+
+<li><span>11.2 Menu en webstructuur</span><br> • een websitestructuur omzetten in een menu</li>
+<li><span>11.3 Kleur beslissing</span><br> kleur consequent gebruiken: een juiste beslissing qua opmaak maken in volledig site</li>
+
+<li><span>11.4 Responsive webdesign</span><br> • rekening houden met het verschil in browsers en schermweergaven</li>
+
+<li><span>11.5 Metadata</span><br> • een website optimaliseren voor een goede ranking in zoekmachines (metadata)</li>
+
+			
+			</ul>
+				
+			 </div>
+			</div>
+    
+		
+    </div>
+	  </div>
+    <div id="menu2" class="tab-pane fade" role="tabpanel">
+        <h3>2/6 LPD construeren</h3>
+	
+		<div class="d-flex flex-column my-flex-container-column align-items-start">
+		 <div class="d-flex flex-row my-flex-container flex-wrap ">
+			  <div class="p-2 my-flex-item-zondermarge">
+		<p><strong>een eenvoudige website construeren;</strong><br>
+
+o de technische structuur ontleden;<br>
+
+o een webeditor hanteren;	</p>
+			 </div>
+				  
+				    <div class="p-2 my-flex-item-zondermarge">
+				  
+				<ul>
+	<li>	<span>1 Opmaak definiëren</span>• tekens • alinea’s • lijsten • tabellen • pagina</li>
+	<li>	<span>1.1 Tekens</span> • head code: charset= UTF-8 meta-data title meta</li>
+
+<li><span>1.2 Alinea</span>• alinea’s<i> p class</i>
+</li>
+
+
+<li><span>2.2 Figuur</span> • tekst of figuur als link: <i>img figure picture</i></li>
+<li><span>2.3 Externe links</span> • link <i>a href=""</i></li>
+<li><span>2.4 Bladwijzer</span> • anker code <i> a name</i> + menu met link<i>code a href="#" target="_"</i></li>
+	
+
+		
+						</ul>
+				  </div>
+			 </div>
+			</div>
+				  
+		</div>
+		
+	
+	  
+    <div id="menu3" class="tab-pane fade" role="tabpanel">
+      <h3>3/6 LPD Opmaak</h3>
+		<div class="d-flex flex-column my-flex-container-column align-items-start">
+		 <div class="d-flex flex-row my-flex-container flex-wrap ">
+			  <div class="p-2 my-flex-item-zondermarge">
+				  <p>
+		<strong>elementaire websites aanmaken en analyseren;</strong><br>
+
+o de opmaak definiëren;<br>
+
+o interne en externe links toepassen;<br>
+
+o lijsten integreren;<br>
+
+o tabellen inlassen;<br>
+
+o frames/framework gebruiken;<br>
+
+o formulieren integreren;
+		</p>
+			 </div>
+				 <div class="p-2 my-flex-item-zondermarge">
+				<ul>
+			<li><span>1.3 Lijst</span>• lijsten<i> ul ol li</i></li>
+
+<li><span>1.4 Tabel</span>• tabellen<i> tr td table</i></li>
+
+<li><span>1.5 Pagina</span> • index.html stijlen.css</li>
+<li><span>2 Link</span> • Internet en externe links</li> 
+					<ul>
+<li><span>2.1 Relatief/Absoluut</span> • relatieve en absolute links/eenheden <i>px % em rem</i></li>
+<ul>
+<li><span>2.1.2 Boxmodel (extra)</span> • BOXMODEL: padding border margin voor div classes</li>
+<li><span>2.2.2 DIV class id</span> • DIV positie <i>class en id</i></li>
+	</ul>
+						</ul>
+
+					<li><span>3 Ontwerpen</span> • framework grid ontwerpen en gebruiken</li>
+			<li><span>4 Formulieren integreren</span> • aanmaak • wijzigen • resultaten verzenden • resultaten verwerken</li>
+		
+		</ul>
+			
+			 </div>
+			</div>
+		</div>
+    
+		
+    </div>
+    <div id="menu4" class="tab-pane fade" role="tabpanel">
+      <h3>4/6 LPD Grafisch Materiaal</h3>
+		<div class="container">
+			<div class="d-flex flex-column my-flex-container-column align-items-start">
+		 <div class="d-flex flex-row my-flex-container flex-wrap ">
+			  <div class="p-2 my-flex-item-zondermarge">
+			
+		  <p>
+		<strong>grafische elementen integreren;</strong><br>
+
+o grafisch materiaal voorbereiden;<br>
+
+o technische en esthetische beslissingen nemen;<br>
+
+o grafisch materiaal converteren;<br>
+
+o kleuren, kleurencomposities en achtergronden gebruiken;<br>
+
+o grafisch materiaal invoegen;<br>
+
+o multimedia componenten inlassen;
+		
+		</p>
+			
+			</div>
+		 
+			
+		 <div class="p-2 my-flex-item-zondermarge">
+
+	<p><span>5 Grafisch materiaal: beelden en figuren </span></p>
+			<ul>
+				<li> • voorbereiden, converteren en invoegen </li>
+				<li> • achtergrond website opmaken</li>
+				<li> • optimaliseren</li>
+			
+			</ul>
+			<p><span>2.5 Miniaturen</span> • autominiaturen: <i>width height </i></p><ul>
+					<li><slian>2.6 Hotspots</slian> • klikbaar gebied op afbeeldingen : code <i>usemap en area</i></li>
+					<li><slian>2.7 Frames</slian> • multimedia content in een iframes : code <i> iframe	</i></li>
+			 </ul>
+<p><span>6 Technische en esthetische bespssingen nemen</span> • kleuren en kleurencomposities</p>
+
+<p><span>7 Multimedia</span> • componenten inlassen • video • animaties • geluid</p>
+
+			 </div>
+    
+	
+	
+
+    </div>
+				</div>
+			</div>
+			  </div>
+	  
+	  
+	  <div id="menu5" class="tab-pane fade" role="tabpanel">
+      <h3>5/6 LPD Publiceren</h3>
+		<div class="d-flex flex-column my-flex-container-column align-items-start">
+		 <div class="d-flex flex-row my-flex-container flex-wrap ">
+			  <div class="p-2 my-flex-item-zondermarge">
+				 <p>
+		<strong>een website publiceren;</strong><br>
+
+o directories en bestanden beheren;<br>
+
+o een website op het internet plaatsen;<br>
+
+o een website onderhouden;
+		  
+		  </p>
+			 </div>
+				 <div class="p-2 my-flex-item-zondermarge">
+					 
+		  <p><span>8 Terminologie</span> • Terminologie • website / webpagina • WYSIWYG</li>
+		 <ul><p><span>8.1 Domein</span> • URL, IP-adres, domein</li>
+			 </ul>
+			 <p> <span>12 Publiceren online</span> • Publiceren van de website</li>
+	<ul>
+		<p>	<span>12.1 Webruimte</span> • Webruimte aanvragen en/of activeren</li>
+<p><span>12.2 Mapstructuur</span> • Mappen en bestanden beheren en onderhouden</li>
+
+<p><span>12.3 Onderhouden</span> • Website onderhouden</li>
+		</ul>
+		  
+		  </ul>
+				  </div>
+			 </div>
+			</div>
+     
+		 
+    </div>
+	  
+	  <div id="menu6" class="tab-pane fade" role="tabpanel">
+      <h3>6/6 LPD Kwaliteitscontrole</h3>
+		 
+		  	<div class="d-flex flex-column my-flex-container-column align-items-start">
+		 <div class="d-flex flex-row my-flex-container flex-wrap ">
+			  <div class="p-2 my-flex-item-zondermarge">
+				  <p>
+		  <strong>kwaliteitscontroles uitvoeren:</strong><br>
+
+o het product aan de eisen van de klant toetsen;<br>
+
+o met mogelijkheden en beperkingen<br> van verschillende browsers en platformen rekening houden;<br>
+o met opdrachtgever en collega’s overleg plegen. 
+		  </p>
+			 </div>
+			 <div class="p-2 my-flex-item-zondermarge">
+				  <ul>
+		  
+		 <li> <span>11.6 Overleg en deadlines</span> </li>
+					  <ul>
+					  <li> • overleggen met verschillende personen</li>
+					  <li> • eigen werk binnen de gestelde deadlines organiseren</li>
+					  </ul>
+
+<li><span>11.7 Klanteisen</span> • het product aan de eisen van de klant toetsen</li>
+
+		  
+		  </ul>
+				</div>
+		  </div>
+	  </div>
+    
+		  
+		
+	  </div>
+	  
+			 
+		</section>	
+
+	  <section>
+	  
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist">
+		<li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#sluit">x</a></li>
+        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#lessen">lessen</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les1">1</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les2">2</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les3">3</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les4">4</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les5">5</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les6">6</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les7">7</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les8">8</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les9">9</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les10">10</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les11">11</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les12">12</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les13">13</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les14">14</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les15">15</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les16">16</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les17">17</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les18">18</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les19">19</a></li>
+        <li class="nav-item"><a class="nav-link"  role="tab" data-toggle="tab" href="#les20">20</a></li>
+      </ul>
+
+      <div class="tab-content">
+		   <div id="sluit" class="tab-pane fade in active" role="tabpanel">
+		  
+		<h3>
+ <div id="sluit" class="tab-pane fade" role="tabpanel">
+		<h3>pdf met leerplan</h3>
+	 <p><a href="http://www.stuurgroepvo.be/doc/curriculum/LeerplannenSVO/Nieuwe%20studiegebieden/LPGrafischecommunicatieenmedia/Webdesigner.pdf">pdf op www.stuurgroepvo.be : p 24</a></p>
+MODULE WEBSITEPRODUCTIE 1 
+				   <ul>
+<li>5.1 Organisatie p 24</li>
+<li>5.2 Situering van de module in de opleiding p 24</li>
+<li>5.3 Beginsituatie  p 24</li>
+<li>5.4 Doelstellingen  p 24</li>
+<li>5.5 Leerinhouden module “Websiteproductie 1” p 26</li>
+<li>5.6 Minimale materiële vereisten p 27</li>
+<li>5.7 Methodologische wenken p 27</li>
+<li>5.8 Evaluatie p 28</li>
+<li>5.9 Sleutelvaardigheden p 28</li>
+<li>5.10 Bibliografie p28</li>
+					   </ul> 
+			</div> 
+        <div id="lessen" class="tab-pane fade in active" role="tabpanel">
+          
+         hier komen alle lessen nog eens onder elkaar (zonder summary)
+
+  
+	
+	 </div>
+
+        <div id="les1" class="tab-pane fade" role="tabpanel">
+
+          <h4>Doelstellingen:</h4>
+         
+      
+	</div>
+
+            <div id="les2" class="tab-pane fade" role="tabpanel">
+ <h4>les 2: inhoud:</h4>
+    
+  
+            </div>
+		  
+			
+		 
+		  </section>
+		
+		<section>
+		
+		
+	      <div class="container">
+   
+	    
+	      <ul class="nav nav-tabs">
+        <li><a data-toggle="tab" href="#opdrachten">Alle Opdrachten</a></li>
+        <li><a data-toggle="tab" href="#opdr1">1 Eigen Hobby's</a></li>
+        <li><a data-toggle="tab" href="#opdr2">2 DEME</a></li>
+        <li><a data-toggle="tab" href="#opdr3">3 Halloween</a></li>
+        <li><a data-toggle="tab" href="#opdr4">4 Portfolio</a></li>
+           
+      </ul>
+
+      <div class="tab-content">
+        <div id="opdrachten" class="tab-pane fade in active">
+          <h3>Webproductie 1 opdrachten</h3>
+
+        <ul>
+			  
+			  <ol>
+			   <li>Website 1:<span> mijn website over mijn hobby's</span> div, ankers, koppen en paragrafen, images, CSS stylen</li>
+			    <li>Website 2:<span> Deme-group business website</span> positioneren  landingspagina en sociaal menu, extra stylsheets</li>
+			  <li>Website 3:<span> Halloween website </span> CSS grid, hero-image, slider, formulier, cards, uploaden, audio, video en animatie</li>
+		    <li>Website 4:<span> Portfolio</span> Alle resultaten in website op http://sites.google.com en http://wwww.github.io</li> 
+			  </ol>
+                
+   
+              
+	  </ul>
+		  </div>
+       
+			
+        <div id="opdr1" class="tab-pane fade">	 
+			   <h2>Website 1: mijn website over mijn hobby's</h2>
+                 <p> Website maken met basis html-code in Dreamweaver</p>
+			
+			<ul>
+                 
+                <ol>
+					<strong>Html-Structuur</strong>
+                  <li>navigatie menu (=ul block-inline gecentreerd) <span><a href="https://www.w3schools.com/css/css_navbar.asp" target="_blank">W3-link</a></span></li>
+			<li>lijstelementen <span><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">W3-link</a></span></li>
+                <li>blocks: (div met display:inline-block) <span><a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">W3-link</a></span></li>
+			  <li>tabel (met thead tbody tfoot )<span><a href=" https://www.w3schools.com/html/html_tables.asp" target="_blank">W3-link</a></span></li>
+                  <li>footer (display: block) <span><a href="https://www.w3schools.com/tags/tag_footer.asp" target="_blank">W3-link</a></span></li>
+					
+					<strong>Tekst en opmaak</strong>
+					<li>tekst koppen (heading) <span><a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">W3-link-</a></span></li>
+					<li>tekst opmaak (paragraph) <span><a href="https://www.w3schools.com/css/css_text.asp" target="_blank">W3-link-</a></span></li>
+					<li>tekst uitlijning met CSS <span><a href="https://www.w3schools.com/w3css/w3css_text.asp" target="_blank">W3-link-</a></span></li>
+						<li>tekst effecten met CSS (overflow) <span><a href="hhttps://www.w3schools.com/css/css3_text_effects.asp" target="_blank">W3-link-</a></span></li>
+					<strong>Afbeeldingen</strong>  <span><a href="https://www.w3.org/standards/webdesign/graphics" target="_blank">W3.org</a></span> 
+					<li>htmlcode voor afbeedingen (image + hotspot-map + picture) <span><a href="https://www.w3schools.com/html/html_images.asp" target="_blank">W3-link-</a></span></li>
+						<li>vectorafbeeldingen (svg) <span><a href="https://www.w3schools.com/html/html5_svg.asp" target="_blank">W3-link-</a></span></li>
+					<li>vectorafbeeldingen (.webp) <span><a href="https://www.w3schools.com/html/html5_svg.asp" target="_blank">W3-link-</a></span></li>
+                </ol>
+	  
+	  </ul>
+			
+		  </div>
+			
+        <div id="opdr2" class="tab-pane fade">
+			
+			<ul>    <h2>Website 2: DEME</h2>
+               <p>Website met (stage) landingspagina in Dreamweaver</p> 
+            <ol>
+                  <li>sociaal menu (fontawesome iconen) <span><a href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp" target="_blank">W3-link</a></span></li>
+                  <li>background images + full screen (cover) <span><a href="https://www.w3schools.com/css/css_background.asp" target="_blank">W3-link</a></span></li>
+                  <li>centreren div <span><a href="https://www.w3schools.com/css/css_align.asp" target="_blank">W3-link</a></span> </li>
+                  <li>hotspot op afbeelding (code: map-area)<span><a href="https://www.w3schools.com/tags/tag_map.asp" target="_blank">W3-link</a></span></li>
+                </ol>
+       </ul> 
+	 
+             
+				  </div>
+			
+	
+        <div id="opdr3" class="tab-pane fade">
+	
+				 <h2>Website 3: Halloween:</h2>
+			   <p> Website maken met CSS grid in Dreamweaver</p> 
+                      
+                  <ol>
+                    <li>header hero-box <span><a href="https://www.w3schools.com/howto/howto_css_hero_image.asp" target="_blank"></u>W3-link</a></span></li>
+                    <li>responisve images <span><a href="https://www.w3schools.com/css/css_rwd_images.asp" target="_blank">W3-link</a></span></li>
+			        <li>picture images<span><a href="https://www.w3schools.com/tags/tag_picture.asp" target="_blank">W3-link</a></span></li>
+                    <li>responsive menu <span><a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp" target="_blank">W3-link</a></span></li>
+                    <li>blocks en cards in CSSgrid <span><a href="https://www.w3schools.com/css/css_inline-block.asp" target="_blank">W3-link</a></span></li>
+                    <li>@media queries <span><a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" target="_blank">W3-link-voorbeelden</a> : <span><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_mediaqueries_ex5" target="_blank"> beste voorbeeld = ex5.html</span></a></li>
+					   <li> formulier <span><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">W3-link-html-forms</a>
+						   </span> <a href="https://www.w3schools.com/css/css_form.asp " target="_blank">W3-link-css-forms</a></span></li> 
+			   <li>Multimedia <span><a href="https://www.w3schools.com/html/html_media.asp" target="_blank">W3-link</a></span></li>
+			  
+			
+                  </ol>
+			 					  	 
+ 
+				</div>
+		  
+		     <div id="opdr4" class="tab-pane fade">
+			 
+				 <h2>Website 4: Portfolio</h2>
+			   <p> Website maken met overzicht van de opdrachten met http://sites.google.com</p> 
+                      
+                  <ol>
+                    <li>header hero-box</li>
+                    <li>responisve images</li>
+                    <li>responsive menu</li>
+                    <li>blokken in CSSgrid</li>
+                    <li>@media queries</li>
+					   <li> formulier</li>   
+                  </ol>
+			
+					 					  	 
+ 
+				</div>
+
+</div> 
+	</div>	
+		
+		
+		</section>
+		
+</div>
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+	  
+	    </script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
